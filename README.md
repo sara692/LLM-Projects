@@ -1,6 +1,6 @@
 # 🤖 LLM and Agents
 
-A collection of projects exploring Large Language Models (LLMs) and AI Agents — from simple Q&A apps to intelligent agents that can reason, plan, and act.
+A collection of projects exploring Large Language Models (LLMs), AI Agents, and NLP techniques — from simple Q&A apps to emotion classification systems.
 
 This repository grows over time as I learn and build more in the AI space.
 
@@ -11,8 +11,8 @@ This repository grows over time as I learn and build more in the AI space.
 | # | Project | Description | Tools |
 |---|---------|-------------|-------|
 | 01 | [PDF Q&A Bot](./01-PDF-Q&A-bot/) | Ask questions about PDF documents using open-source LLMs | Gradio, Llama, HuggingFace |
+| 02 | [Emotion Classification with DistilBERT](./02-Emotion-Classification-DistilBERT/) | Detect emotions from text using a fine-tuned DistilBERT model | Python, Transformers, HuggingFace |
 | ... | *More coming soon* | | |
-
 ---
 
 ## 🧠 What is an LLM?
@@ -32,8 +32,10 @@ An **AI Agent** is an LLM that can do more than just answer questions — it can
 | Python | Core language |
 | Gradio | Building web UIs |
 | HuggingFace | Models and deployment |
+| Transformers | Fine-tuning and inference |
 | LangChain | Building LLM pipelines and agents |
 | pypdf | PDF processing |
+| PyTorch | Deep learning framework |
 | Google Colab | Development and experimentation |
 
 ---
@@ -41,6 +43,7 @@ An **AI Agent** is an LLM that can do more than just answer questions — it can
 ## 🗺️ Roadmap
 
 - ✅ PDF Q&A Bot
+- ✅ Emotion Classification with DistilBERT
 - ⬜ AI Agent with web search
 - ⬜ RAG (Retrieval Augmented Generation) pipeline
 - ⬜ Multi-agent system
@@ -58,4 +61,4 @@ An **AI Agent** is an LLM that can do more than just answer questions — it can
 
 ## 📄 License
 
-This repository is open source and available.
+This repository is open source and available under the [MIT License](LICENSE).
